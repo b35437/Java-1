@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FundamentalsWeekOne</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="character">
+        <item></item>
+        <item>Barbarian</item>
+        <item>Crusader</item>
+        <item>Demon Hunter</item>
+        <item>Monk</item>
+        <item>Witch Doctor</item>
+        <item>Wizard</item>
+    </string-array>
+
+</resources>
