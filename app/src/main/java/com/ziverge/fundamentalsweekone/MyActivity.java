@@ -1,7 +1,6 @@
 package com.ziverge.fundamentalsweekone;
 
 import android.app.Activity;
-import android.app.AlertDialog;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -84,6 +83,7 @@ public class MyActivity extends Activity implements AdapterView.OnItemSelectedLi
 
             stringList.add(cNameString +" " + "The " + " " + String.valueOf(cClassSpinner.getSelectedItem()));
 
+            //toast message for character saved
             Toast.makeText(this, "Character Saved", Toast.LENGTH_SHORT).show();
 
             cAdapter.notifyDataSetChanged();

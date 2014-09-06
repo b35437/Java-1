@@ -15,8 +15,8 @@
         android:id="@+id/cClassSpinner"
         android:spinnerMode="dropdown"
         android:layout_below="@+id/cClassTextView"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -25,7 +25,7 @@
         android:id="@+id/cClassTextView"
         android:textColor="#ff000000"
         android:textSize="16dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="22dp"
         android:layout_below="@+id/cNameText"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -74,18 +74,19 @@
         android:layout_height="wrap_content"
         android:id="@+id/totalEntryTextView"
         android:text="Total Entries:"
-        android:layout_below="@+id/buttons"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/averageLengthTextView"
+        android:layout_alignParentLeft="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/averageLengthTextView"
         android:text="Average Length:"
+        android:layout_below="@+id/buttons"
+        android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/totalEntryTextView"
-        android:layout_alignParentLeft="true" />
+        android:layout_marginTop="29dp" />
 
     <ListView
         android:layout_width="wrap_content"
